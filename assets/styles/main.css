@@ -862,3 +862,21 @@ svg circle {
     100%{opacity: 1; }
 }
 
+.select-options__pattern {   
+    position: absolute;
+    top: 50px;
+    width: 1px;
+    height: calc(100% - 100px);
+    right: 20px;
+    background: #C09068;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.scroll_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+}
